@@ -12,3 +12,25 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+img {
+  width: 500px;
+}
+.flexbox {
+  display: grid;
+  justify-content: center;
+  margin-top: 30px;
+}
+.widget {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.color{
+  font-size: 30px;
+  
+}
+.js-box{
+  display: flex;
+  align-items: flex-end;
+  margin-top: 40px;
+}
