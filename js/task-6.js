@@ -7,10 +7,12 @@ createBtn.addEventListener("click", createBoxes);
 
 destoroyBtn.addEventListener("click", destoroyBoxes);
 
-function createBoxes(amout) {
-  amout = +input.value;
-  if (amout >= 1 && amout <= 100) {
-    for (let i = 0; i < amout; i++) {
+function createBoxes(amount) {
+ const numInput = +input.value;
+ amount = numInput;
+   
+  if (amount >= 1 && amount <= 100) {
+    for (let i = 0; i < amount; i++) {
       const box = document.createElement("div");
 
       box.style.backgroundColor = getRandomHexColor();
